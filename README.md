@@ -1,6 +1,6 @@
 # Wheeluino Arduino Project
 
-![Wheeluino](https://github.com/ripred/Wheeluino/blob/main/Wheel-O.png)
+![Wheeluino](Wheel-O.png)
 
 ## Overview
 
@@ -31,7 +31,7 @@ Explore the key features that make the Wheeluino project stand out:
 Dive deeper into the Wheeluino project with multimedia elements:
 
 - **Project Image:**
-  - ![Wheeluino](https://github.com/ripred/Wheeluino/blob/main/Wheel-O.png)
+  - ![Wheeluino](Wheel-O.png)
 
 - **Project Video:**
   - [Video](https://github.com/ripred/Wheeluino/blob/main/Wheel-O1.mp4)

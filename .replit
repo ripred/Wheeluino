@@ -1,0 +1,7 @@
+run = "Run the Wheeluino"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "Run the Wheeluino"]
