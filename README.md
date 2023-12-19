@@ -1,6 +1,6 @@
 # Wheeluino Arduino Project
 
-![Wheeluino Project Image Placeholder](image_placeholder.jpg)
+![Wheeluino](https://github.com/ripred/Wheeluino/blob/main/Wheel-O.png)
 
 ## Overview
 
