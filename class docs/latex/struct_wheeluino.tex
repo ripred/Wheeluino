@@ -1,0 +1,104 @@
+\doxysection{Wheeluino Struct Reference}
+\hypertarget{struct_wheeluino}{}\label{struct_wheeluino}\index{Wheeluino@{Wheeluino}}
+
+
+Structure representing the Wheel-\/O and its control.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_wheeluino_a52b76d143251d1c394161cef2aed81e0}{Wheeluino}} (int const \+\_\+pin)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{struct_wheeluino}{Wheeluino} structure. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a0fef62dbb5f5ddd9672ad9d6d1567b97}\label{struct_wheeluino_a0fef62dbb5f5ddd9672ad9d6d1567b97} 
+void {\bfseries begin} ()
+\begin{DoxyCompactList}\small\item\em Initializes the \doxylink{struct_wheeluino}{Wheeluino} by attaching the servo and starting over. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a2119a764a65d8ed7160ee6cc406c97f1}\label{struct_wheeluino_a2119a764a65d8ed7160ee6cc406c97f1} 
+void {\bfseries end} ()
+\begin{DoxyCompactList}\small\item\em Stops the \doxylink{struct_wheeluino}{Wheeluino} by detaching the servo and settling down. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a95ea84379ecae35585a0a11d4604ff37}\label{struct_wheeluino_a95ea84379ecae35585a0a11d4604ff37} 
+void {\bfseries raise} ()
+\begin{DoxyCompactList}\small\item\em Raises the end of the Wheel-\/O until it reaches the maximum position. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a97083f4be580e9e3ab86d5d53c320eb2}\label{struct_wheeluino_a97083f4be580e9e3ab86d5d53c320eb2} 
+void {\bfseries lower} ()
+\begin{DoxyCompactList}\small\item\em Lowers the end of the Wheel-\/O until it reaches the minimum position. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a576127d72f81b4c91462de7ebb626d1a}\label{struct_wheeluino_a576127d72f81b4c91462de7ebb626d1a} 
+void {\bfseries settle\+\_\+up} ()
+\begin{DoxyCompactList}\small\item\em Points the Wheel-\/O down and waits for it to settle. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_ae53e73bceaae0cb6a2a309da3a50fe24}\label{struct_wheeluino_ae53e73bceaae0cb6a2a309da3a50fe24} 
+void {\bfseries settle\+\_\+down} ()
+\begin{DoxyCompactList}\small\item\em Points the Wheel-\/O up and waits for it to settle. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a4637ae17c4c79b52506fddf2ef120aab}\label{struct_wheeluino_a4637ae17c4c79b52506fddf2ef120aab} 
+void {\bfseries speed\+\_\+up} ()
+\begin{DoxyCompactList}\small\item\em Speeds up the Wheel-\/O from a stopped position. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a744598f76c0b9d21e2971bce8e28fd4c}\label{struct_wheeluino_a744598f76c0b9d21e2971bce8e28fd4c} 
+void {\bfseries start\+\_\+over} ()
+\begin{DoxyCompactList}\small\item\em Stops and restarts the Wheel-\/O. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a99a4233363872262d2662903ece8053d}\label{struct_wheeluino_a99a4233363872262d2662903ece8053d} 
+void {\bfseries run} ()
+\begin{DoxyCompactList}\small\item\em Executes a run sequence for the Wheel-\/O. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_wheeluino_a2f7865e6318196bd9f1d7ded36f8d713}\label{struct_wheeluino_a2f7865e6318196bd9f1d7ded36f8d713} 
+double const {\bfseries slow} = 11.\+0
+\begin{DoxyCompactList}\small\item\em Slow speed constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a32fb1f79294c9bd6c57ac6b84cd6827b}\label{struct_wheeluino_a32fb1f79294c9bd6c57ac6b84cd6827b} 
+double const {\bfseries fast} = 6.\+6
+\begin{DoxyCompactList}\small\item\em Fast speed constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_aea465f0c302d1de8d9f9655488f9c441}\label{struct_wheeluino_aea465f0c302d1de8d9f9655488f9c441} 
+double const {\bfseries pause\+\_\+min} = 23.\+0
+\begin{DoxyCompactList}\small\item\em Minimum pause duration constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_aaddbc26d1969986853f64ede804c331f}\label{struct_wheeluino_aaddbc26d1969986853f64ede804c331f} 
+double const {\bfseries pause\+\_\+factor} = 0.\+47
+\begin{DoxyCompactList}\small\item\em Pause factor constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a329e6d0f05257125f9901edcd2ed7d0f}\label{struct_wheeluino_a329e6d0f05257125f9901edcd2ed7d0f} 
+double const {\bfseries speed\+\_\+factor} = 0.\+94
+\begin{DoxyCompactList}\small\item\em Speed factor constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_ab05a78d8d1f056b29e832312b1e80095}\label{struct_wheeluino_ab05a78d8d1f056b29e832312b1e80095} 
+int const {\bfseries pos\+\_\+max} = 90
+\begin{DoxyCompactList}\small\item\em Maximum position constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_af8e723a4af2bc8c60d21b11045523a43}\label{struct_wheeluino_af8e723a4af2bc8c60d21b11045523a43} 
+int const {\bfseries pos\+\_\+min} = 20
+\begin{DoxyCompactList}\small\item\em Minimum position constant. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_abca01d73c50d599cce769186b7cac8b5}\label{struct_wheeluino_abca01d73c50d599cce769186b7cac8b5} 
+Servo {\bfseries servo}
+\begin{DoxyCompactList}\small\item\em Servo motor object. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a34beb7f26a5d593872416da6b565c6ba}\label{struct_wheeluino_a34beb7f26a5d593872416da6b565c6ba} 
+int {\bfseries pin}
+\begin{DoxyCompactList}\small\item\em Pin to which the servo is connected. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a0867a230cba51a479c42aef1ff92e265}\label{struct_wheeluino_a0867a230cba51a479c42aef1ff92e265} 
+double {\bfseries speed}
+\begin{DoxyCompactList}\small\item\em Current speed of the Wheel-\/O. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_a4ce88d8c32ae2db9799c370ace319611}\label{struct_wheeluino_a4ce88d8c32ae2db9799c370ace319611} 
+double {\bfseries pause}
+\begin{DoxyCompactList}\small\item\em Pause duration at each end. \end{DoxyCompactList}\item 
+\Hypertarget{struct_wheeluino_acb3ce1f207f15710d35112793eb035e8}\label{struct_wheeluino_acb3ce1f207f15710d35112793eb035e8} 
+int {\bfseries pos}
+\begin{DoxyCompactList}\small\item\em Current position of the servo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Structure representing the Wheel-\/O and its control. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{struct_wheeluino_a52b76d143251d1c394161cef2aed81e0}\label{struct_wheeluino_a52b76d143251d1c394161cef2aed81e0} 
+\index{Wheeluino@{Wheeluino}!Wheeluino@{Wheeluino}}
+\index{Wheeluino@{Wheeluino}!Wheeluino@{Wheeluino}}
+\doxysubsubsection{\texorpdfstring{Wheeluino()}{Wheeluino()}}
+{\footnotesize\ttfamily Wheeluino\+::\+Wheeluino (\begin{DoxyParamCaption}\item[{int const}]{\+\_\+pin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for the \doxylink{struct_wheeluino}{Wheeluino} structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+pin} & The pin to which the servo is connected. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/trent/\+Documents/\+Arduino/\+Wheeluino2/Wheeluino.\+cpp\end{DoxyCompactItemize}
