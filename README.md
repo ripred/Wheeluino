@@ -32,7 +32,7 @@ I decided implement the motions as four separate stages:
 
 All of the timings for each motion are multiplied by a global speed variable so that everything runs at a relative speed for each movement and that speed could be increased as the wheel gained more and more velocity and momentum.
 
-Finally, once everything was in working order I refactored it all into a single C++ class so that the sketches that used it would simply be working with a single Wheeluino object. 😄
+Finally, once everything was in working order I refactored it all into a single C++ class so that the sketches that used it would simply be working with a single *`Wheeluino`* object. 😄
 
 One of the more interesting things to watch is when the wheel-o is standing still and it first starts moving and then speeds up as the wheel moves faster and faster. So to enjoy that more often I made it pause every 30 seconds and to let the wheel stop moving completely. Then it starts over and speeds up faster and faster as the momentum and velocity of the wheel increases. You can easily change the number of seconds it runs before it stops and starts over again to any numbers of seconds you'd like (well, up to 32,767 seconds anyway).
 
