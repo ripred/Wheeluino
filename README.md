@@ -23,7 +23,7 @@ Power Considerations: Note that depending on the amount of current pulled by the
 
 I love to code in any language and I'm always overly optimistic on how easy something will be to write and how long it will take me. I had the basic code to control the servo and the wheel-o written in 5 minutes. It took me 4 hours to tweak and calibrate all of the gains for the various movements to finally have something that was stable enough to work.
 
-I decided implement the motions as four separate stages:
+I decided to implement the motions as four separate stages:
 
 * lower the arm
 * pause briefly while the wheel spins back around
