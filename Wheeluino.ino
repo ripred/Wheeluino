@@ -143,8 +143,6 @@ uint32_t start_time;
  * @brief Arduino setup function.
  */
 void setup() {
-    Serial.begin(115200);
-
     wheelo.begin();
     wheelo.start_over();
 
