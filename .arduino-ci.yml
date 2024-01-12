@@ -3,11 +3,11 @@ platforms:
     board: rp2040:rp2040:rpipico
     package: rp2040:rp2040
     gcc:
-      features:
+      features: --skip-examples-compilation
       defines:
         - ARDUINO_ARCH_RP2040
       warnings:
-      flags: --skip-examples-compilation
+      flags: 
 
 packages:
   rp2040:rp2040:
