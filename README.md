@@ -1,8 +1,8 @@
 
 <!-- [![Arduino CI](https://github.com/ripred/Wheeluino/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) -->
 [![Arduino-lint](https://github.com/ripred/Wheeluino/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/arduino-lint.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ripred/Wheeluino/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ripred/Wheeluino.svg?maxAge=3600)](https://github.com/ripred/Wheeluino/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ripred/Wheeluino/blob/master/LICENSE)
 
 # An Arduino controlled Wheel-O
 
