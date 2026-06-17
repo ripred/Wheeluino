@@ -3,6 +3,11 @@
 [![GitHub release](https://flat.badgen.net/github/release/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/releases/latest)
 [![License: MIT](https://flat.badgen.net/github/license/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/blob/main/LICENSE)
 
+[![Arduino CI](https://github.com/ripred/Wheeluino/actions/workflows/arduino_test_runner.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/arduino_test_runner.yml)
+[![JSON check](https://github.com/ripred/Wheeluino/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/jsoncheck.yml)
+[![Stars](https://flat.badgen.net/github/stars/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/stargazers)
+[![Forks](https://flat.badgen.net/github/forks/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/network/members)
+
 # An Arduino controlled Wheel-O
 
 ![Wheeluino](Wheel-O.png)
