@@ -1,12 +1,13 @@
-<!-- [![Arduino CI](https://github.com/ripred/Wheeluino/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) -->
-[![Arduino-lint](https://github.com/ripred/Wheeluino/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/arduino-lint.yml)
-[![GitHub release](https://flat.badgen.net/github/release/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/releases/latest)
-[![License: MIT](https://flat.badgen.net/github/license/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/blob/main/LICENSE)
+[![Arduino CI](https://img.shields.io/static/v1?style=flat&label=Arduino+CI&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/Wheeluino/actions/workflows/arduino_test_runner.yml)
+[![Arduino-lint](https://img.shields.io/static/v1?style=flat&label=Arduino-lint&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/Wheeluino/actions/workflows/arduino-lint.yml)
+[![JSON check](https://img.shields.io/static/v1?style=flat&label=JSON+check&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/Wheeluino/actions/workflows/jsoncheck.yml)
+[![Release](https://img.shields.io/static/v1?style=flat&label=Release&message=Wheelunio_1.0&color=8250df&labelColor=24292f)](https://github.com/ripred/Wheeluino/releases/latest)
+[![License](https://img.shields.io/static/v1?style=flat&label=License&message=MIT&color=0969da&labelColor=24292f)](https://github.com/ripred/Wheeluino/blob/main/LICENSE)
+[![Stars](https://img.shields.io/static/v1?style=flat&label=Stars&message=1&color=bf8700&labelColor=24292f)](https://github.com/ripred/Wheeluino/stargazers)
+[![Forks](https://img.shields.io/static/v1?style=flat&label=Forks&message=0&color=6f42c1&labelColor=24292f)](https://github.com/ripred/Wheeluino/network/members)
 
-[![Arduino CI](https://github.com/ripred/Wheeluino/actions/workflows/arduino_test_runner.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/arduino_test_runner.yml)
-[![JSON check](https://github.com/ripred/Wheeluino/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/Wheeluino/actions/workflows/jsoncheck.yml)
-[![Stars](https://flat.badgen.net/github/stars/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/stargazers)
-[![Forks](https://flat.badgen.net/github/forks/ripred/Wheeluino)](https://github.com/ripred/Wheeluino/network/members)
+<!-- [![Arduino CI](https://github.com/ripred/Wheeluino/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci) -->
+
 
 # An Arduino controlled Wheel-O
 
